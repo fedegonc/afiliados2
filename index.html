@@ -3,60 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producto de Afiliado Hotmart</title>
+    <title>Transforma tu Vida con este Curso Exclusivo</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
         }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-        }
-        img {
-            max-width: 100%;
+        .header-img {
+            width: 100%;
             height: auto;
             border-radius: 10px;
         }
-        h1 {
-            font-size: 1.8em;
-            color: #333;
+        .card-content h2 {
+            color: #ff6b00;
         }
-        p {
-            font-size: 1em;
-            color: #666;
-            margin: 15px 0;
+        .cta {
+            text-align: center;
+            margin-top: 40px;
         }
-        a {
-            display: inline-block;
-            padding: 15px 30px;
+        .cta a {
             background-color: #ff6b00;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
+            font-size: 1.2em;
+            padding: 20px 40px;
         }
-        a:hover {
+        .cta a:hover {
             background-color: #e65a00;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://via.placeholder.com/300x200" alt="Imagen del Producto">
-        <h1>Nombre del Producto</h1>
-        <p>Aprende habilidades increíbles con este curso. Mejora tu vida hoy mismo con los mejores expertos del mercado.</p>
-        <a href="https://hotm.art/tu-enlace-afiliado" target="_blank">Comprar Ahora</a>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper teal">
+            <a href="#" class="brand-logo center">Curso Exclusivo</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#comprar">Comprar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="inicio">
+        <div class="section">
+            <div class="row">
+                <div class="col s12">
+                    <img class="header-img" src="https://via.placeholder.com/800x400" alt="Imagen del Producto">
+                    <h1 class="center-align">Transforma tu Vida con este Curso Exclusivo</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Descubre tu Potencial</h2>
+                            <p>Este curso ha sido diseñado para ayudarte a desbloquear tu verdadero potencial y lograr lo que siempre has deseado. Miles de personas ya han transformado sus vidas gracias a este contenido exclusivo, y tú podrías ser el próximo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>¿Qué aprenderás?</h2>
+                            <p>Con este curso, aprenderás las técnicas y estrategias que los expertos utilizan para alcanzar el éxito. Cada lección está cuidadosamente estructurada para que puedas aplicar lo aprendido en tu vida diaria y ver resultados rápidamente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Acceso Exclusivo y Limitado</h2>
+                            <p>Las plazas son limitadas porque creemos en proporcionar una experiencia personalizada y de calidad. Esta es tu oportunidad para unirte a un grupo selecto de personas que ya están dando pasos hacia una vida más plena y exitosa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="beneficios">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Beneficios de Inscribirte Hoy</h2>
+                            <ul class="collection">
+                                <li class="collection-item">Acceso inmediato al curso y a todos los recursos adicionales para que puedas empezar a transformar tu vida desde el primer día.</li>
+                                <li class="collection-item">Soporte continuo por parte de mentores y expertos que estarán disponibles para resolver todas tus dudas.</li>
+                                <li class="collection-item">Garantía de satisfacción: Si no estás completamente satisfecho con el curso, tienes 7 días para solicitar un reembolso completo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Únete a una Comunidad de Éxito</h2>
+                            <p>Al adquirir este curso, no solo obtendrás acceso a contenido de valor, sino que también formarás parte de una comunidad activa y comprometida que te apoyará en cada paso de tu camino. Imagina el poder de tener personas a tu lado que comparten tus objetivos y te motivan a seguir adelante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta" id="comprar">
+            <a href="https://hotm.art/tu-enlace-afiliado" target="_blank">Comprar Ahora y Comienza Hoy</a>
+        </div>
+
+        <div class="section testimonials" id="testimonios">
+            <h2 class="center-align">Testimonios de Nuestros Estudiantes</h2>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel teal lighten-4">
+                        <p>"Gracias a este curso, logré cambiar mi mentalidad y alcanzar mis metas mucho más rápido de lo que imaginaba. Recomiendo este curso a cualquiera que esté listo para un verdadero cambio."</p>
+                        <span>- María G., Estudiante Satisfecha</span>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel teal lighten-4">
+                        <p>"El contenido es práctico, claro y realmente me ayudó a dar pasos concretos hacia mis objetivos. Además, la comunidad es muy motivadora."</p>
+                        <span>- Juan P., Emprendedor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
